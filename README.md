@@ -95,7 +95,9 @@ C = Curvature
 
 M = Momentum
 
+# Github Pre-Print Transcript pending, do not follow below, will be added later. For team use only
 
+![g0](g0.png)
 ![g1](g1.png)
 ![g2](g2.png)
 ![g3](g3.png)

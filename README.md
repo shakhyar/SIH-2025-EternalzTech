@@ -24,21 +24,16 @@ Team Members:
 
 **Key goals:**  
 - Lightweight computation suitable for on-field irrigation sensors
-- Raise alerts beforhand when moisture will fall down critical points so that measures could be taken beforehand by the farmers.
+- Raise alerts beforhand so that measures could be taken by the farmers, instead of waiting for moisture to fall down critical points to trigger alert. 
 - Even during irrigation, backtrace a relationship between decay and growh graph so that we dont overwater the plant.
 - Understand how "Thirsty" the plant is and dont supply unnecessaary water even when the plant doesnt needs it.
 
-**Motivation? Why this example?**
+### **Motivation? Why this example?**
 
-Soil drying and Plant absorption are non proportional/non linear. Just having If else statement is too dangerous, why? Here are the reasons:
+Soil drying and Plant absorption are non-proportional/non-linear. Just having If else statement is too dangerous, why? Here are the reasons:
 - In **hilly/dry areas**, if we have already irrigated the plant, it might've absorbed adequate amount of water; But just because the weather was dry-> moisture from soil dropped, and we irrigated again!!
-- This is a **very dangerous** event as water is scarce in such areas, we just can not afford to lose more water from our precious limited reservoir.
+- This is a **very dangerous** event as water is scarce in such areas, we just can not afford to lose more water from our precious limited reservoirs.
 - This may also result in overwatering and harming the plant.
-
-
-### ***SOLUTION:***
-
-Soil moisture decays in a non linear way, there are no fixed proportions that helps us know when will the soil completely dry up after its been irrigated. 
 
 #### Factors leading to this uncertainity:
 - Ambient Temperature: More heat =  more evaporatione
@@ -50,12 +45,19 @@ Soil moisture decays in a non linear way, there are no fixed proportions that he
     3. How much water is lost by transpiration
     4. Number of stomata per leaf area
     5. Number of leaves
+
  
+### ***SOLUTION:***
+
+Soil moisture decays in a non linear way, there are no fixed proportions that helps us know when will the soil completely dry up after its been irrigated. 
+
+
 **We cannot predict soil moisture decay with so many features on edge devices**. Either: 
-1. We need a lot of data #or
-2. We need an AI to learn these factors, small enough to run on small compute power but without compromising efficiency.
+1. We need a lot of data **OR**
+2. We need an AI to learn these factors, small enough to run on small compute devices, but without compromising efficiency.
 \
-Both of these methods seem impossible, only Neural Nets can fit to such volatile changes, but thats not possible to run RNN, LSTM, CRNN, etc on Arduino sized MCUs. Arduino Nano, has only 2Kb SRAM, thats not possible to fit/make any model in just 2Kb for such a complex task.
+\
+Both of these methods seem impossible, only Neural Nets can fit to such volatile changes, but thats not possible to run RNN, LSTM, CRNN, etc on Arduino sized MCUs. Arduino Nano, has only 2KB SRAM, thats not possible to fit/make any model in just 2KB for such a complex task.
 
 For that we had to develop a completely new Architecture that:
 - Has Smart cold loading from persistant storage instead of keeping entire models as hot cahe
@@ -73,7 +75,7 @@ For that we had to develop a completely new Architecture that:
 
 **Key Innovation**: First geometric tubing approach for spoke systems that transfers geometric intelligence to neural weights during training, enabling fast inference without geometric computations.
 
-## 🎯 Core Architecture
+##  Core Architecture
 
 ### Spoke-Based Prediction System
 - **Input**: 12 sequential points (a₁ to a₁₂) and their slopes (s₁ to s₁₁)
@@ -93,7 +95,8 @@ C = Curvature
 
 M = Momentum
 
-# Github Pre-Print Transcript pending, do not follow below, will be added later. For team use only
+# [WARNING] General Prohibition &mdash;  For team use only: 
+**This Github Pre-Print Transcript is pending and under version beta-vanilla, do not follow or copy any graphs, differential tweaks still left and are based on synthetic generated test data.**
 
 ![g0](g0.png)
 ![g1](g1.png)

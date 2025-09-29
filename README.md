@@ -65,7 +65,7 @@ For that we had to develop a completely new Architecture that:
 
 **We will use this Architecture in generating the moisture decay graph on an Arduino nano.**
 
-\
+
 
 
 More low level technical description will be given below.

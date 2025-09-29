@@ -22,9 +22,7 @@ Team Members:
 
 *In this example, we will use this method to predict and construct a moisture decay graph, using soil moisture values of the past 12 minutes and their slopes rather than traditional regression, and predicting when the moisture will cross our critical thresold of dryness, and back tracing to predict how long we should water instead of just outputing binary signals : water or not water*
 
-**Key goals:**
-- Accurate short-term moisture prediction  
-- Physically plausible decay behavior  
+**Key goals:**  
 - Lightweight computation suitable for on-field irrigation sensors
 - Raise alerts beforhand when moisture will fall down critical points so that measures could be taken beforehand by the farmers.
 - Even during irrigation, backtrace a relationship between decay and growh graph so that we dont overwater the plant.

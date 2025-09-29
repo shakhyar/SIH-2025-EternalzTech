@@ -1,4 +1,4 @@
-<sub>Note: Official Pre-Print of Research paper will be published soon, until then citation is strictly prohibited by any means, transcript was made public for team use only. Contact Author Shakhyar Gogoi</sub> 
+<sub>Note: Official Pre-Print of Research paper will be published soon, until then citation or use of paper is strictly prohibited by any means, this summary transcript was made public for team use only. Contact Author Shakhyar Gogoi</sub> 
 \
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](wwww.linkedin.com/in/shakhyar-gogoi)
 

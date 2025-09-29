@@ -64,8 +64,9 @@ For that we had to develop a completely new Architecture that:
 - Has very small inference cost(load pretrained weights and just multilply them with realtime differential input features)
 
 **We will use this Architecture in generating the moisture decay graph on an Arduino nano.**
+
 \
-\
+
 
 More low level technical description will be given below.
 # Methodology

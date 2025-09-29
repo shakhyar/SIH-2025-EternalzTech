@@ -59,12 +59,12 @@ Soil moisture decays in a non linear way, there are no fixed proportions that he
 Both of these methods seem impossible, only Neural Nets can fit to such volatile changes, but thats not possible to run RNN, LSTM, CRNN, etc on Arduino sized MCUs. Arduino Nano, has only 2KB SRAM, thats not possible to fit/make any model in just 2KB for such a complex task.
 
 For that we had to develop a completely new Architecture that:
-- Has Smart cold loading from persistant storage instead of keeping entire models as hot cahe
+- Has Smart cold loading from persistent storage instead of keeping entire models as hot cahe
 - Learns all the features and predict on the go on even smallest computers.
-- Has very small inference cost(load pretrained weights and just multilply with saved weights)
+- Has very small inference cost(load pretrained weights and just multilply them with realtime differential input features)
 
 **We will use this Architecture in generating the moisture decay graph on an Arduino nano**
-
+Technical description will be given below
 # Methodology
 
 ### 1. Spoke-Based Prediction

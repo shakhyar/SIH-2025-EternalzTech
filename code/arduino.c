@@ -1,11 +1,3 @@
-/*
-   Soil Moisture Prediction with SD Card Weights
-   ---------------------------------------------
-   • Reads soil moisture from analog sensor (0–1023)
-   • Loads model weights from /weights.txt on SD card
-   • Maintains a 12-point window and predicts the next value
-*/
-
 #include <SPI.h>
 #include <SD.h>
 

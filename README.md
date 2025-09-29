@@ -6,7 +6,6 @@
 # GSP-TCRM2D Vanilla &mdash; 2Dimensional Geometric Spoke Pull & Tube Cliping Regressor Machine
 
 
-
 ![Spoke System Cover](spoke_system_cover.png)
 
 ## Overview

@@ -24,8 +24,8 @@ Team Members:
 **Key goals:**  
 - Lightweight computation suitable for on-field irrigation sensors
 - Raise alerts beforhand so that measures could be taken by the farmers, instead of waiting for moisture to fall down critical points to trigger alert. 
-- Even during irrigation, backtrace a relationship between decay and growh graph so that we dont overwater the plant.
-- Understand how "Thirsty" the plant is and dont supply unnecessaary water even when the plant doesnt needs it.
+- Even during irrigation, backtrace a relationship between decay and growth graph so that we dont overwater the plant.
+- Understand how "Thirsty" the plant is and dont supply unnecessary water even when the plant doesnt needs it.
 
 ### **Motivation? Why this example?**
 
@@ -35,7 +35,7 @@ Soil drying and Plant absorption are non-proportional/non-linear. Just having If
 - This may also result in overwatering and harming the plant.
 
 #### Factors leading to this uncertainity:
-- Ambient Temperature: More heat =  more evaporatione
+- Ambient Temperature: More heat =  more evaporation
 - Ambient Humidity: Less humid = More evaporation
 - Plant absorption rate: We dont know at what rate plant absorbs water; Depends upon the following:
 
@@ -59,7 +59,7 @@ Soil moisture decays in a non linear way, there are no fixed proportions that he
 Both of these methods seem impossible, only Neural Nets can fit to such volatile changes, but thats not possible to run RNN, LSTM, CRNN, etc on Arduino sized MCUs. Arduino Nano, has only 2KB SRAM, thats not possible to fit/make any model in just 2KB for such a complex task.
 
 For that we had to develop a completely new Architecture that:
-- Has Smart cold loading from persistent storage instead of keeping entire models as hot cahe
+- Has Smart cold loading from persistent storage instead of keeping entire models as hot cache
 - Learns all the features and predict on the go on even smallest computers.
 - Has very small inference cost(load pretrained weights and just multilply them with realtime differential input features)
 

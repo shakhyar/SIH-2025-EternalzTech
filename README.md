@@ -1,4 +1,6 @@
-# Geometric Spoke Pull (GSP)
+# # Geometric Spoke Pull (GSP)
+**by Shakhyar Gogoi — Edge AI & Microcontroller Time-Series Prediction**
+
 ### A New Ultra-Light AI Architecture for Soil Moisture Prediction on Low-Power Devices
 
 <sub>Preprint Pending — Do Not Redistribute Without Permission</sub>  

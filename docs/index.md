@@ -17,7 +17,7 @@ Contact: [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the
 
 ### A New Ultra-Light AI Architecture for Soil Moisture Prediction on Low-Power Devices
 
-![Spoke System Cover](/spoke_system_cover.png)
+![Spoke System Cover](../spoke_system_cover.png)
 
 # Overview
 

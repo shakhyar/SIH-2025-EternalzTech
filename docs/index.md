@@ -1,8 +1,3 @@
----
-title: Geometric Spoke Pull (GSP)
-description: Ultra-lightweight time-series prediction for microcontrollers by Shakhyar Gogoi
----
-
 # Geometric Spoke Pull (GSP) – Edge Time-Series Prediction on 2KB MCUs
 
 **by Shakhyar Gogoi — Edge AI & Microcontroller Time-Series Prediction**
@@ -17,7 +12,7 @@ Contact: [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the
 
 ### A New Ultra-Light AI Architecture for Soil Moisture Prediction on Low-Power Devices
 
-![Spoke System Cover](../spoke_system_cover.png)
+![Spoke System Cover](spoke_system_cover.png)
 
 # Overview
 
@@ -255,12 +250,12 @@ This keeps predictions aligned with real soil behaviour.
 
 # Example Plots
 
-![g0](../g0.png)
-![g1](../g1.png)
-![g2](../g2.png)
-![g3](../g3.png)
-![g4](../g4.png)
-![g5](../g5.png) 
+![g0](g0.png)
+![g1](g1.png)
+![g2](g2.png)
+![g3](g3.png)
+![g4](g4.png)
+![g5](g5.png) 
 
 # Limitations & Potential Improvements
 

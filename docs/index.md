@@ -255,12 +255,12 @@ This keeps predictions aligned with real soil behaviour.
 
 # Example Plots
 
-![g0](g0.png)
-![g1](g1.png)
-![g2](g2.png)
-![g3](g3.png)
-![g4](g4.png)
-![g5](g5.png) 
+![g0](../g0.png)
+![g1](../g1.png)
+![g2](../g2.png)
+![g3](../g3.png)
+![g4](../g4.png)
+![g5](../g5.png) 
 
 # Limitations & Potential Improvements
 

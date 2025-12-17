@@ -1,6 +1,8 @@
-
-**by Shakhyar Gogoi — Edge AI & Microcontroller Time-Series Prediction**
-
+---
+title: Geometric Spoke Pull (GSP)
+description: Ultra-lightweight time-series prediction for microcontrollers by Shakhyar Gogoi
+author: Shakhyar Gogoi
+---
 
 ## Author
 **Shakhyar Gogoi**  

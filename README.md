@@ -3,8 +3,13 @@
 
 ### A New Ultra-Light AI Architecture for Soil Moisture Prediction on Low-Power Devices
 
+## Author
+**Shakhyar Gogoi**  
+Independent Researcher & Creator  
+Contact: [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](wwww.linkedin.com/in/shakhyar-gogoi)
+
 <sub>Preprint Pending — Do Not Redistribute Without Permission</sub>  
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](wwww.linkedin.com/in/shakhyar-gogoi)
+
 
 ![Spoke System Cover](spoke_system_cover.png)
 
